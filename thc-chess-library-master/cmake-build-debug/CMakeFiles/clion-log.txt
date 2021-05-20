@@ -1,0 +1,8 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/user/Downloads/thc-chess-library-master
+CMake Warning (dev) at CMakeLists.txt:6 (set):
+  Cannot set "THC_CHESS_INCLUDE": current scope has no parent.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/user/Downloads/thc-chess-library-master/cmake-build-debug

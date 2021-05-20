@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/user/Downloads/thc-chess-library-master/src/main.cpp
+thc.h
+/Users/user/Downloads/thc-chess-library-master/src/thc.h
+
+/Users/user/Downloads/thc-chess-library-master/src/thc.h
+stddef.h
+-
+string
+-
+vector
+-
+

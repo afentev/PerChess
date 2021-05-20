@@ -1,0 +1,5 @@
+/Users/user/Downloads/thc-chess-library-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/user/Downloads/thc-chess-library-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/user/Downloads/thc-chess-library-master/cmake-build-debug/CMakeFiles/thc-chess.dir
+/Users/user/Downloads/thc-chess-library-master/cmake-build-debug/CMakeFiles/thc_chess_static.dir
+/Users/user/Downloads/thc-chess-library-master/cmake-build-debug/CMakeFiles/thc_chess.dir
