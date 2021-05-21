@@ -6,13 +6,13 @@ PerChess is a chess engine written in C++. It uses MTD(f) algorithm to find the 
 </p>
 
 # How does it work?
-PerChess is based on the Sunfish engine. It also uses MTD(f) algorithm. PerChess supports databases for openings in endings. 
+PerChess is based on the Sunfish engine. It also uses MTD(f) algorithm. PerChess supports databases for openings and endings. 
 
 Now it uses a small opening database and I have plans to make this database much bigger. The ending database is a Sygyzy table for 3-, 4- and 5-pieces endings. 
 
 MTD(f) algorithm in this implementation is looking for moves in simple heuristic order; in fact, it is very similar to MVV-LVA. The evaluation function thanks to Sunfish is very quick. It uses two types of piece-square tables: one for opening and middlegame and the other for the endgame.
 
-The searching function is upper limited with 20 seconds for penultimate depth so, in fact, it takes about 30 seconds to make a turn.
+The searching function is upper limited with 20 seconds for penultimate depth so, in fact, it takes about 30 seconds to make a move.
 
 # How strong is it?
 I made several games between PerChess and the 2100-rated engine on chess.com. PerChess played them all as black. It never lost and won several games. It generally wins against the 2000-rated engine. It also seems like it is weaker than the 2200-rated engine so it should be about 2100 rated bot. 
