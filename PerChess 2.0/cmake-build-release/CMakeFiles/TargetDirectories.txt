@@ -1,0 +1,3 @@
+/Users/user/CLionProjects/PerChess/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/Users/user/CLionProjects/PerChess/cmake-build-release/CMakeFiles/edit_cache.dir
+/Users/user/CLionProjects/PerChess/cmake-build-release/CMakeFiles/PerChess.dir

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PerChess"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/user/CLionProjects/PerChess/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/user/CLionProjects/PerChess/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/user/CLionProjects/PerChess/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PerChess">
+				<Option output="/Users/user/CLionProjects/PerChess/cmake-build-debug/PerChess" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/user/CLionProjects/PerChess/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_1/lib/gcc/11/gcc/x86_64-apple-darwin21/11.2.0/../../../../../../include/c++/11.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_1/lib/gcc/11/gcc/x86_64-apple-darwin21/11.2.0/../../../../../../include/c++/11.2.0/x86_64-apple-darwin21"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_1/lib/gcc/11/gcc/x86_64-apple-darwin21/11.2.0/../../../../../../include/c++/11.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_1/lib/gcc/11/gcc/x86_64-apple-darwin21/11.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_1/lib/gcc/11/gcc/x86_64-apple-darwin21/11.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 PerChess"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PerChess/fast">
+				<Option output="/Users/user/CLionProjects/PerChess/cmake-build-debug/PerChess" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/user/CLionProjects/PerChess/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_1/lib/gcc/11/gcc/x86_64-apple-darwin21/11.2.0/../../../../../../include/c++/11.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_1/lib/gcc/11/gcc/x86_64-apple-darwin21/11.2.0/../../../../../../include/c++/11.2.0/x86_64-apple-darwin21"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_1/lib/gcc/11/gcc/x86_64-apple-darwin21/11.2.0/../../../../../../include/c++/11.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_1/lib/gcc/11/gcc/x86_64-apple-darwin21/11.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_1/lib/gcc/11/gcc/x86_64-apple-darwin21/11.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 PerChess/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/CLionProjects/PerChess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/user/CLionProjects/PerChess/Engine.cpp">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/Engine.h">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/KingBitboardsFiles/KingMoves.cpp">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/KingBitboardsFiles/KingMoves.h">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/KnightsBitboardsFiles/KnightsMoves.cpp">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/KnightsBitboardsFiles/KnightsMoves.h">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/Measures.cpp">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/Measures.h">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/MobilityFiles/Mobility.cpp">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/MobilityFiles/Mobility.h">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/MovesJumpTable.cpp">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/MovesJumpTable.h">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/PawnsBitboardsFiles/PawnAttacks.cpp">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/Position.cpp">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/Position.h">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/SlidingBitboardsFiles/slider_attacks.cpp">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/SlidingBitboardsFiles/slider_attacks.h">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/Tables.cpp">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/Tables.h">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/main.cpp">
+			<Option target="PerChess"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/PerChess/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
